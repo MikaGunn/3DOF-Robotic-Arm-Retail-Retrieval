@@ -1,0 +1,7 @@
+Video,Class,V3 TP%,V3 FP%,V3 Missed%,V5 TP%,V5 FP%,V5 Missed%
+apple1,Apple,93.3,0.0,6.7,89.7,0.0,10.3
+apple2,Apple,-,-,-,54.8,22.8,22.4
+banana1,Banana,0.0,0.0,100.0,0.0,11.3,88.7
+banana2,Banana,21.0,0.0,79.0,23.4,2.6,74.0
+orange1,Orange,0.0,19.5,80.5,0.0,9.5,90.5
+lemon1,Lemon,1.8,0.4,97.8,1.3,6.3,92.4

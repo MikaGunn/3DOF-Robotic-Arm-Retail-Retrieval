@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  vision:
+    build: .
+    ports:
+      - "8765:8765"
+    devices:
+      - /dev/video0:/dev/video0
+    environment:
+      - DISPLAY=${DISPLAY}
+    network_mode: host
+    volumes:
+      - ./computer_vision/models:/ros_ws/models

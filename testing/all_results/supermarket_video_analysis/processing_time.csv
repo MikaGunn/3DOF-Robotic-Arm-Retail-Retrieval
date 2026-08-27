@@ -1,0 +1,4 @@
+Model,Avg Processing Time (ms),Notes
+V3,70,Fastest - best for deployment
+V4,incompatible,Designed for Raspberry Pi CPU inference
+V5,170,2.5x slower than V3 on CPU

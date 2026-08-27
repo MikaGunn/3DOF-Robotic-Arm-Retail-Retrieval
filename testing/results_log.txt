@@ -1,0 +1,700 @@
+========================================
+Testing model: V3
+========================================
+
+--- banana1.MOV (Banana) ---
+Processing: /home/hamza/Videos/supermarket_videos/banana1.MOV
+Expected class: Banana
+--------------------------------------------------
+
+Results for banana1.MOV:
+Total frames: 168
+True positive: 0 (0.0%)
+False positive: 0 (0.0%)
+Missed: 168 (100.0%)
+Average confidence (detected frames): 0.000
+Average processing time: 69.2ms
+Plot saved to: /home/hamza/Videos/supermarket_videos/V3/banana1_analysis.png
+
+--- banana2.MOV (Banana) ---
+Processing: /home/hamza/Videos/supermarket_videos/banana2.MOV
+Expected class: Banana
+--------------------------------------------------
+
+Results for banana2.MOV:
+Total frames: 762
+True positive: 160 (21.0%)
+False positive: 0 (0.0%)
+Missed: 602 (79.0%)
+Average confidence (detected frames): 0.710
+Average processing time: 70.5ms
+Plot saved to: /home/hamza/Videos/supermarket_videos/V3/banana2_analysis.png
+
+--- false_positive_test.MOV () ---
+Processing: /home/hamza/Videos/supermarket_videos/false_positive_test.MOV
+Expected class: 
+--------------------------------------------------
+
+Results for false_positive_test.MOV:
+Total frames: 643
+Average confidence (detected frames): 0.594
+Average processing time: 81.9ms
+Plot saved to: /home/hamza/Videos/supermarket_videos/V3/false_positive_test_analysis.png
+
+--- apple1.MOV (Apple) ---
+Processing: /home/hamza/Videos/supermarket_videos/apple1.MOV
+Expected class: Apple
+--------------------------------------------------
+
+Results for apple1.MOV:
+Total frames: 359
+True positive: 335 (93.3%)
+False positive: 0 (0.0%)
+Missed: 24 (6.7%)
+Average confidence (detected frames): 0.726
+Average processing time: 77.3ms
+Plot saved to: /home/hamza/Videos/supermarket_videos/V3/apple1_analysis.png
+
+--- orange_and_lemon.MOV (Orange) ---
+Processing: /home/hamza/Videos/supermarket_videos/orange_and_lemon.MOV
+Expected class: Orange
+--------------------------------------------------
+Frame 74: False positive - detected Lemon (conf=0.499)
+Frame 94: False positive - detected Lemon (conf=0.487)
+Frame 265: False positive - detected Lemon (conf=0.628)
+Frame 267: False positive - detected Lemon (conf=0.676)
+Frame 321: False positive - detected Apple (conf=0.527)
+Frame 323: False positive - detected Lemon (conf=0.487)
+Frame 333: False positive - detected Lemon (conf=0.492)
+Frame 342: False positive - detected Lemon (conf=0.656)
+Frame 343: False positive - detected Lemon (conf=0.754)
+Frame 344: False positive - detected Lemon (conf=0.726)
+Frame 353: False positive - detected Apple (conf=0.500)
+Frame 355: False positive - detected Apple (conf=0.522)
+Frame 357: False positive - detected Apple (conf=0.520)
+Frame 358: False positive - detected Apple (conf=0.595)
+Frame 359: False positive - detected Apple (conf=0.553)
+Frame 360: False positive - detected Apple (conf=0.485)
+Frame 363: False positive - detected Apple (conf=0.488)
+Frame 387: False positive - detected Apple (conf=0.483)
+Frame 434: False positive - detected Apple (conf=0.581)
+Frame 437: False positive - detected Apple (conf=0.527)
+Frame 438: False positive - detected Apple (conf=0.572)
+Frame 440: False positive - detected Apple (conf=0.502)
+Frame 441: False positive - detected Apple (conf=0.544)
+Frame 442: False positive - detected Apple (conf=0.482)
+Frame 443: False positive - detected Apple (conf=0.674)
+Frame 444: False positive - detected Apple (conf=0.519)
+Frame 445: False positive - detected Apple (conf=0.615)
+Frame 446: False positive - detected Apple (conf=0.487)
+Frame 447: False positive - detected Apple (conf=0.594)
+Frame 449: False positive - detected Apple (conf=0.564)
+Frame 453: False positive - detected Apple (conf=0.626)
+Frame 454: False positive - detected Apple (conf=0.504)
+Frame 455: False positive - detected Apple (conf=0.703)
+Frame 456: False positive - detected Apple (conf=0.745)
+Frame 457: False positive - detected Apple (conf=0.607)
+Frame 458: False positive - detected Apple (conf=0.777)
+Frame 459: False positive - detected Apple (conf=0.784)
+Frame 460: False positive - detected Apple (conf=0.817)
+Frame 461: False positive - detected Apple (conf=0.830)
+Frame 462: False positive - detected Apple (conf=0.729)
+Frame 463: False positive - detected Apple (conf=0.730)
+Frame 464: False positive - detected Apple (conf=0.709)
+Frame 465: False positive - detected Apple (conf=0.733)
+Frame 466: False positive - detected Apple (conf=0.719)
+Frame 467: False positive - detected Apple (conf=0.730)
+Frame 468: False positive - detected Apple (conf=0.716)
+Frame 469: False positive - detected Apple (conf=0.598)
+Frame 470: False positive - detected Apple (conf=0.661)
+Frame 471: False positive - detected Apple (conf=0.725)
+Frame 472: False positive - detected Apple (conf=0.692)
+Frame 473: False positive - detected Apple (conf=0.648)
+Frame 474: False positive - detected Apple (conf=0.641)
+Frame 475: False positive - detected Apple (conf=0.563)
+Frame 478: False positive - detected Apple (conf=0.489)
+Frame 479: False positive - detected Apple (conf=0.514)
+Frame 484: False positive - detected Apple (conf=0.489)
+Frame 486: False positive - detected Apple (conf=0.495)
+Frame 489: False positive - detected Apple (conf=0.555)
+Frame 492: False positive - detected Apple (conf=0.612)
+Frame 493: False positive - detected Apple (conf=0.562)
+Frame 494: False positive - detected Apple (conf=0.542)
+
+Results for orange_and_lemon.MOV:
+Total frames: 620
+True positive: 0 (0.0%)
+False positive: 61 (9.8%)
+Missed: 559 (90.2%)
+Average confidence (detected frames): 0.606
+Average processing time: 78.9ms
+Plot saved to: /home/hamza/Videos/supermarket_videos/V3/orange_and_lemon_analysis.png
+
+--- apple2.MOV (Apple) ---
+Processing: /home/hamza/Videos/supermarket_videos/apple2.MOV
+Expected class: Apple
+--------------------------------------------------
+Frame 108: False positive - detected Lemon (conf=0.689)
+Frame 109: False positive - detected Lemon (conf=0.565)
+Frame 110: False positive - detected Lemon (conf=0.582)
+Frame 114: False positive - detected Lemon (conf=0.666)
+Frame 115: False positive - detected Lemon (conf=0.546)
+Frame 116: False positive - detected Lemon (conf=0.658)
+Frame 117: False positive - detected Lemon (conf=0.569)
+Frame 118: False positive - detected Lemon (conf=0.632)
+Frame 119: False positive - detected Lemon (conf=0.713)
+Frame 120: False positive - detected Lemon (conf=0.628)
+Frame 121: False positive - detected Lemon (conf=0.607)
+Frame 122: False positive - detected Lemon (conf=0.620)
+Frame 123: False positive - detected Lemon (conf=0.799)
+Frame 124: False positive - detected Lemon (conf=0.692)
+Frame 125: False positive - detected Lemon (conf=0.760)
+Frame 126: False positive - detected Lemon (conf=0.572)
+Frame 127: False positive - detected Lemon (conf=0.632)
+Frame 128: False positive - detected Lemon (conf=0.607)
+Frame 129: False positive - detected Lemon (conf=0.598)
+Frame 130: False positive - detected Lemon (conf=0.549)
+Frame 131: False positive - detected Lemon (conf=0.620)
+Frame 133: False positive - detected Lemon (conf=0.497)
+Frame 136: False positive - detected Lemon (conf=0.533)
+Frame 137: False positive - detected Lemon (conf=0.602)
+Frame 146: False positive - detected Lemon (conf=0.603)
+Frame 147: False positive - detected Lemon (conf=0.685)
+Frame 148: False positive - detected Lemon (conf=0.618)
+Frame 149: False positive - detected Lemon (conf=0.682)
+Frame 150: False positive - detected Lemon (conf=0.690)
+Frame 151: False positive - detected Lemon (conf=0.698)
+Frame 152: False positive - detected Lemon (conf=0.551)
+Frame 153: False positive - detected Lemon (conf=0.510)
+Frame 154: False positive - detected Lemon (conf=0.577)
+Frame 155: False positive - detected Lemon (conf=0.634)
+Frame 157: False positive - detected Lemon (conf=0.611)
+Frame 158: False positive - detected Lemon (conf=0.572)
+Frame 159: False positive - detected Lemon (conf=0.732)
+Frame 160: False positive - detected Lemon (conf=0.705)
+Frame 161: False positive - detected Lemon (conf=0.628)
+Frame 162: False positive - detected Lemon (conf=0.781)
+Frame 163: False positive - detected Lemon (conf=0.812)
+Frame 164: False positive - detected Lemon (conf=0.554)
+Frame 166: False positive - detected Lemon (conf=0.738)
+Frame 167: False positive - detected Lemon (conf=0.698)
+Frame 168: False positive - detected Lemon (conf=0.769)
+Frame 169: False positive - detected Lemon (conf=0.673)
+Frame 170: False positive - detected Lemon (conf=0.805)
+Frame 171: False positive - detected Lemon (conf=0.849)
+Frame 172: False positive - detected Lemon (conf=0.896)
+Frame 173: False positive - detected Lemon (conf=0.921)
+Frame 174: False positive - detected Lemon (conf=0.905)
+Frame 175: False positive - detected Lemon (conf=0.861)
+Frame 176: False positive - detected Lemon (conf=0.755)
+Frame 177: False positive - detected Lemon (conf=0.778)
+Frame 178: False positive - detected Lemon (conf=0.733)
+
+Results for apple2.MOV:
+Total frames: 272
+True positive: 154 (56.6%)
+False positive: 55 (20.2%)
+Missed: 63 (23.2%)
+Average confidence (detected frames): 0.747
+Average processing time: 87.1ms
+Plot saved to: /home/hamza/Videos/supermarket_videos/V3/apple2_analysis.png
+========================================
+Testing model: V4
+========================================
+
+--- banana1.MOV (Banana) ---
+Traceback (most recent call last):
+  File "/home/hamza/Logistics-Robot-with-Computer-Vision/testing/analyse_video.py", line 13, in <module>
+    model = YOLO(model_path)
+            ^^^^^^^^^^^^^^^^
+  File "/home/hamza/.local/lib/python3.12/site-packages/ultralytics/models/yolo/model.py", line 76, in __init__
+    super().__init__(model=model, task=task, verbose=verbose)
+  File "/home/hamza/.local/lib/python3.12/site-packages/ultralytics/engine/model.py", line 144, in __init__
+    self._load(model, task=task)
+  File "/home/hamza/.local/lib/python3.12/site-packages/ultralytics/engine/model.py", line 283, in _load
+    self.model, self.ckpt = load_checkpoint(weights)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hamza/.local/lib/python3.12/site-packages/ultralytics/nn/tasks.py", line 1517, in load_checkpoint
+    model = (ckpt.get("ema") or ckpt["model"]).float()  # FP32 model
+                                ~~~~^^^^^^^^^
+KeyError: 'model'
+
+--- banana2.MOV (Banana) ---
+Traceback (most recent call last):
+  File "/home/hamza/Logistics-Robot-with-Computer-Vision/testing/analyse_video.py", line 13, in <module>
+    model = YOLO(model_path)
+            ^^^^^^^^^^^^^^^^
+  File "/home/hamza/.local/lib/python3.12/site-packages/ultralytics/models/yolo/model.py", line 76, in __init__
+    super().__init__(model=model, task=task, verbose=verbose)
+  File "/home/hamza/.local/lib/python3.12/site-packages/ultralytics/engine/model.py", line 144, in __init__
+    self._load(model, task=task)
+  File "/home/hamza/.local/lib/python3.12/site-packages/ultralytics/engine/model.py", line 283, in _load
+    self.model, self.ckpt = load_checkpoint(weights)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hamza/.local/lib/python3.12/site-packages/ultralytics/nn/tasks.py", line 1517, in load_checkpoint
+    model = (ckpt.get("ema") or ckpt["model"]).float()  # FP32 model
+                                ~~~~^^^^^^^^^
+KeyError: 'model'
+
+--- false_positive_test.MOV () ---
+Traceback (most recent call last):
+  File "/home/hamza/Logistics-Robot-with-Computer-Vision/testing/analyse_video.py", line 13, in <module>
+    model = YOLO(model_path)
+            ^^^^^^^^^^^^^^^^
+  File "/home/hamza/.local/lib/python3.12/site-packages/ultralytics/models/yolo/model.py", line 76, in __init__
+    super().__init__(model=model, task=task, verbose=verbose)
+  File "/home/hamza/.local/lib/python3.12/site-packages/ultralytics/engine/model.py", line 144, in __init__
+    self._load(model, task=task)
+  File "/home/hamza/.local/lib/python3.12/site-packages/ultralytics/engine/model.py", line 283, in _load
+    self.model, self.ckpt = load_checkpoint(weights)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hamza/.local/lib/python3.12/site-packages/ultralytics/nn/tasks.py", line 1517, in load_checkpoint
+    model = (ckpt.get("ema") or ckpt["model"]).float()  # FP32 model
+                                ~~~~^^^^^^^^^
+KeyError: 'model'
+
+--- apple1.MOV (Apple) ---
+Traceback (most recent call last):
+  File "/home/hamza/Logistics-Robot-with-Computer-Vision/testing/analyse_video.py", line 13, in <module>
+    model = YOLO(model_path)
+            ^^^^^^^^^^^^^^^^
+  File "/home/hamza/.local/lib/python3.12/site-packages/ultralytics/models/yolo/model.py", line 76, in __init__
+    super().__init__(model=model, task=task, verbose=verbose)
+  File "/home/hamza/.local/lib/python3.12/site-packages/ultralytics/engine/model.py", line 144, in __init__
+    self._load(model, task=task)
+  File "/home/hamza/.local/lib/python3.12/site-packages/ultralytics/engine/model.py", line 283, in _load
+    self.model, self.ckpt = load_checkpoint(weights)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hamza/.local/lib/python3.12/site-packages/ultralytics/nn/tasks.py", line 1517, in load_checkpoint
+    model = (ckpt.get("ema") or ckpt["model"]).float()  # FP32 model
+                                ~~~~^^^^^^^^^
+KeyError: 'model'
+
+--- orange_and_lemon.MOV (Orange) ---
+Traceback (most recent call last):
+  File "/home/hamza/Logistics-Robot-with-Computer-Vision/testing/analyse_video.py", line 13, in <module>
+    model = YOLO(model_path)
+            ^^^^^^^^^^^^^^^^
+  File "/home/hamza/.local/lib/python3.12/site-packages/ultralytics/models/yolo/model.py", line 76, in __init__
+    super().__init__(model=model, task=task, verbose=verbose)
+  File "/home/hamza/.local/lib/python3.12/site-packages/ultralytics/engine/model.py", line 144, in __init__
+    self._load(model, task=task)
+  File "/home/hamza/.local/lib/python3.12/site-packages/ultralytics/engine/model.py", line 283, in _load
+    self.model, self.ckpt = load_checkpoint(weights)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hamza/.local/lib/python3.12/site-packages/ultralytics/nn/tasks.py", line 1517, in load_checkpoint
+    model = (ckpt.get("ema") or ckpt["model"]).float()  # FP32 model
+                                ~~~~^^^^^^^^^
+KeyError: 'model'
+
+--- apple2.MOV (Apple) ---
+Traceback (most recent call last):
+  File "/home/hamza/Logistics-Robot-with-Computer-Vision/testing/analyse_video.py", line 13, in <module>
+    model = YOLO(model_path)
+            ^^^^^^^^^^^^^^^^
+  File "/home/hamza/.local/lib/python3.12/site-packages/ultralytics/models/yolo/model.py", line 76, in __init__
+    super().__init__(model=model, task=task, verbose=verbose)
+  File "/home/hamza/.local/lib/python3.12/site-packages/ultralytics/engine/model.py", line 144, in __init__
+    self._load(model, task=task)
+  File "/home/hamza/.local/lib/python3.12/site-packages/ultralytics/engine/model.py", line 283, in _load
+    self.model, self.ckpt = load_checkpoint(weights)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hamza/.local/lib/python3.12/site-packages/ultralytics/nn/tasks.py", line 1517, in load_checkpoint
+    model = (ckpt.get("ema") or ckpt["model"]).float()  # FP32 model
+                                ~~~~^^^^^^^^^
+KeyError: 'model'
+========================================
+Testing model: V5
+========================================
+
+--- banana1.MOV (Banana) ---
+Processing: /home/hamza/Videos/supermarket_videos/banana1.MOV
+Expected class: Banana
+--------------------------------------------------
+Frame 14: False positive - detected Apple (conf=0.498)
+Frame 23: False positive - detected Apple (conf=0.485)
+Frame 24: False positive - detected Apple (conf=0.577)
+Frame 94: False positive - detected Apple (conf=0.517)
+Frame 95: False positive - detected Apple (conf=0.531)
+Frame 98: False positive - detected Apple (conf=0.499)
+Frame 99: False positive - detected Apple (conf=0.543)
+Frame 100: False positive - detected Apple (conf=0.538)
+Frame 112: False positive - detected Apple (conf=0.504)
+Frame 113: False positive - detected Apple (conf=0.613)
+Frame 114: False positive - detected Apple (conf=0.529)
+Frame 115: False positive - detected Apple (conf=0.573)
+Frame 116: False positive - detected Apple (conf=0.645)
+Frame 117: False positive - detected Apple (conf=0.579)
+Frame 119: False positive - detected Apple (conf=0.665)
+Frame 120: False positive - detected Apple (conf=0.499)
+Frame 124: False positive - detected Apple (conf=0.639)
+Frame 125: False positive - detected Apple (conf=0.654)
+Frame 128: False positive - detected Apple (conf=0.579)
+
+Results for banana1.MOV:
+Total frames: 168
+True positive: 0 (0.0%)
+False positive: 19 (11.3%)
+Missed: 149 (88.7%)
+Average confidence (detected frames): 0.562
+Average processing time: 175.9ms
+Plot saved to: /home/hamza/Videos/supermarket_videos/V5/banana1_analysis.png
+
+--- banana2.MOV (Banana) ---
+Processing: /home/hamza/Videos/supermarket_videos/banana2.MOV
+Expected class: Banana
+--------------------------------------------------
+Frame 178: False positive - detected Apple (conf=0.543)
+Frame 205: False positive - detected Apple (conf=0.521)
+Frame 342: False positive - detected Apple (conf=0.539)
+Frame 354: False positive - detected Apple (conf=0.578)
+Frame 355: False positive - detected Apple (conf=0.607)
+Frame 402: False positive - detected Apple (conf=0.504)
+Frame 403: False positive - detected Apple (conf=0.489)
+Frame 406: False positive - detected Apple (conf=0.602)
+Frame 564: False positive - detected Apple (conf=0.493)
+Frame 578: False positive - detected Apple (conf=0.533)
+Frame 579: False positive - detected Apple (conf=0.514)
+Frame 601: False positive - detected Apple (conf=0.625)
+Frame 602: False positive - detected Apple (conf=0.518)
+Frame 609: False positive - detected Apple (conf=0.495)
+Frame 638: False positive - detected Apple (conf=0.502)
+Frame 721: False positive - detected Lemon (conf=0.663)
+Frame 722: False positive - detected Lemon (conf=0.657)
+Frame 726: False positive - detected Apple (conf=0.498)
+Frame 730: False positive - detected Apple (conf=0.675)
+Frame 740: False positive - detected Apple (conf=0.511)
+
+Results for banana2.MOV:
+Total frames: 762
+True positive: 178 (23.4%)
+False positive: 20 (2.6%)
+Missed: 564 (74.0%)
+Average confidence (detected frames): 0.701
+Average processing time: 171.4ms
+Plot saved to: /home/hamza/Videos/supermarket_videos/V5/banana2_analysis.png
+
+--- false_positive_test.MOV () ---
+Processing: /home/hamza/Videos/supermarket_videos/false_positive_test.MOV
+Expected class: 
+--------------------------------------------------
+
+Results for false_positive_test.MOV:
+Total frames: 643
+Average confidence (detected frames): 0.634
+Average processing time: 150.8ms
+Plot saved to: /home/hamza/Videos/supermarket_videos/V5/false_positive_test_analysis.png
+
+--- apple1.MOV (Apple) ---
+Processing: /home/hamza/Videos/supermarket_videos/apple1.MOV
+Expected class: Apple
+--------------------------------------------------
+
+Results for apple1.MOV:
+Total frames: 359
+True positive: 322 (89.7%)
+False positive: 0 (0.0%)
+Missed: 37 (10.3%)
+Average confidence (detected frames): 0.745
+Average processing time: 170.7ms
+Plot saved to: /home/hamza/Videos/supermarket_videos/V5/apple1_analysis.png
+
+--- orange_and_lemon.MOV (Orange) ---
+Processing: /home/hamza/Videos/supermarket_videos/orange_and_lemon.MOV
+Expected class: Orange
+--------------------------------------------------
+Frame 1: False positive - detected Lemon (conf=0.621)
+Frame 2: False positive - detected Lemon (conf=0.595)
+Frame 3: False positive - detected Lemon (conf=0.595)
+Frame 4: False positive - detected Lemon (conf=0.589)
+Frame 5: False positive - detected Lemon (conf=0.591)
+Frame 6: False positive - detected Lemon (conf=0.583)
+Frame 7: False positive - detected Lemon (conf=0.583)
+Frame 8: False positive - detected Lemon (conf=0.572)
+Frame 9: False positive - detected Lemon (conf=0.578)
+Frame 10: False positive - detected Lemon (conf=0.573)
+Frame 11: False positive - detected Lemon (conf=0.549)
+Frame 12: False positive - detected Lemon (conf=0.496)
+Frame 22: False positive - detected Lemon (conf=0.528)
+Frame 23: False positive - detected Lemon (conf=0.498)
+Frame 29: False positive - detected Lemon (conf=0.496)
+Frame 30: False positive - detected Lemon (conf=0.513)
+Frame 31: False positive - detected Lemon (conf=0.577)
+Frame 32: False positive - detected Lemon (conf=0.590)
+Frame 33: False positive - detected Lemon (conf=0.612)
+Frame 34: False positive - detected Lemon (conf=0.645)
+Frame 35: False positive - detected Lemon (conf=0.641)
+Frame 36: False positive - detected Lemon (conf=0.584)
+Frame 37: False positive - detected Lemon (conf=0.546)
+Frame 38: False positive - detected Lemon (conf=0.538)
+Frame 40: False positive - detected Lemon (conf=0.546)
+Frame 42: False positive - detected Lemon (conf=0.490)
+Frame 43: False positive - detected Lemon (conf=0.554)
+Frame 44: False positive - detected Lemon (conf=0.552)
+Frame 45: False positive - detected Lemon (conf=0.611)
+Frame 46: False positive - detected Lemon (conf=0.632)
+Frame 47: False positive - detected Lemon (conf=0.633)
+Frame 52: False positive - detected Lemon (conf=0.511)
+Frame 53: False positive - detected Lemon (conf=0.629)
+Frame 54: False positive - detected Lemon (conf=0.643)
+Frame 55: False positive - detected Lemon (conf=0.682)
+Frame 56: False positive - detected Lemon (conf=0.562)
+Frame 61: False positive - detected Lemon (conf=0.613)
+Frame 62: False positive - detected Lemon (conf=0.548)
+Frame 64: False positive - detected Lemon (conf=0.526)
+Frame 65: False positive - detected Lemon (conf=0.562)
+Frame 66: False positive - detected Lemon (conf=0.680)
+Frame 67: False positive - detected Lemon (conf=0.553)
+Frame 85: False positive - detected Lemon (conf=0.525)
+Frame 89: False positive - detected Lemon (conf=0.664)
+Frame 90: False positive - detected Lemon (conf=0.699)
+Frame 91: False positive - detected Lemon (conf=0.687)
+Frame 92: False positive - detected Lemon (conf=0.610)
+Frame 93: False positive - detected Lemon (conf=0.640)
+Frame 94: False positive - detected Lemon (conf=0.621)
+Frame 96: False positive - detected Lemon (conf=0.535)
+Frame 97: False positive - detected Lemon (conf=0.498)
+Frame 98: False positive - detected Lemon (conf=0.604)
+Frame 104: False positive - detected Lemon (conf=0.588)
+Frame 105: False positive - detected Lemon (conf=0.521)
+Frame 106: False positive - detected Lemon (conf=0.627)
+Frame 107: False positive - detected Lemon (conf=0.568)
+Frame 108: False positive - detected Lemon (conf=0.495)
+Frame 109: False positive - detected Lemon (conf=0.494)
+Frame 110: False positive - detected Lemon (conf=0.589)
+Frame 111: False positive - detected Lemon (conf=0.529)
+Frame 112: False positive - detected Lemon (conf=0.555)
+Frame 113: False positive - detected Lemon (conf=0.606)
+Frame 115: False positive - detected Lemon (conf=0.510)
+Frame 253: False positive - detected Apple (conf=0.553)
+Frame 260: False positive - detected Apple (conf=0.503)
+Frame 261: False positive - detected Apple (conf=0.686)
+Frame 262: False positive - detected Apple (conf=0.579)
+Frame 272: False positive - detected Apple (conf=0.485)
+Frame 273: False positive - detected Apple (conf=0.506)
+Frame 275: False positive - detected Apple (conf=0.484)
+Frame 277: False positive - detected Apple (conf=0.523)
+Frame 278: False positive - detected Apple (conf=0.578)
+Frame 279: False positive - detected Apple (conf=0.547)
+Frame 308: False positive - detected Apple (conf=0.507)
+Frame 310: False positive - detected Apple (conf=0.489)
+Frame 311: False positive - detected Apple (conf=0.504)
+Frame 312: False positive - detected Apple (conf=0.514)
+Frame 325: False positive - detected Lemon (conf=0.528)
+Frame 336: False positive - detected Lemon (conf=0.598)
+Frame 358: False positive - detected Apple (conf=0.575)
+Frame 376: False positive - detected Apple (conf=0.505)
+Frame 388: False positive - detected Apple (conf=0.553)
+Frame 389: False positive - detected Apple (conf=0.502)
+Frame 398: False positive - detected Apple (conf=0.500)
+Frame 399: False positive - detected Apple (conf=0.603)
+Frame 401: False positive - detected Apple (conf=0.506)
+Frame 418: False positive - detected Apple (conf=0.536)
+Frame 419: False positive - detected Apple (conf=0.533)
+Frame 436: False positive - detected Apple (conf=0.600)
+Frame 449: False positive - detected Apple (conf=0.685)
+Frame 450: False positive - detected Apple (conf=0.682)
+Frame 451: False positive - detected Apple (conf=0.588)
+Frame 453: False positive - detected Apple (conf=0.504)
+Frame 456: False positive - detected Apple (conf=0.648)
+Frame 457: False positive - detected Apple (conf=0.756)
+Frame 458: False positive - detected Apple (conf=0.768)
+Frame 459: False positive - detected Apple (conf=0.729)
+Frame 460: False positive - detected Apple (conf=0.755)
+Frame 461: False positive - detected Apple (conf=0.791)
+Frame 462: False positive - detected Apple (conf=0.646)
+Frame 464: False positive - detected Apple (conf=0.633)
+Frame 465: False positive - detected Apple (conf=0.678)
+Frame 467: False positive - detected Apple (conf=0.527)
+Frame 470: False positive - detected Apple (conf=0.671)
+Frame 471: False positive - detected Apple (conf=0.662)
+Frame 472: False positive - detected Apple (conf=0.608)
+
+Results for orange_and_lemon.MOV:
+Total frames: 620
+True positive: 0 (0.0%)
+False positive: 106 (17.1%)
+Missed: 514 (82.9%)
+Average confidence (detected frames): 0.582
+Average processing time: 167.2ms
+Plot saved to: /home/hamza/Videos/supermarket_videos/V5/orange_and_lemon_analysis.png
+
+--- apple2.MOV (Apple) ---
+Processing: /home/hamza/Videos/supermarket_videos/apple2.MOV
+Expected class: Apple
+--------------------------------------------------
+Frame 101: False positive - detected Banana (conf=0.486)
+Frame 105: False positive - detected Banana (conf=0.644)
+Frame 111: False positive - detected Banana (conf=0.526)
+Frame 113: False positive - detected Lemon (conf=0.804)
+Frame 114: False positive - detected Lemon (conf=0.532)
+Frame 117: False positive - detected Lemon (conf=0.674)
+Frame 118: False positive - detected Lemon (conf=0.562)
+Frame 119: False positive - detected Lemon (conf=0.502)
+Frame 121: False positive - detected Lemon (conf=0.798)
+Frame 122: False positive - detected Lemon (conf=0.618)
+Frame 123: False positive - detected Lemon (conf=0.656)
+Frame 124: False positive - detected Lemon (conf=0.665)
+Frame 125: False positive - detected Lemon (conf=0.735)
+Frame 129: False positive - detected Lemon (conf=0.508)
+Frame 130: False positive - detected Lemon (conf=0.715)
+Frame 131: False positive - detected Lemon (conf=0.757)
+Frame 132: False positive - detected Lemon (conf=0.804)
+Frame 133: False positive - detected Lemon (conf=0.828)
+Frame 134: False positive - detected Lemon (conf=0.825)
+Frame 135: False positive - detected Lemon (conf=0.772)
+Frame 136: False positive - detected Lemon (conf=0.823)
+Frame 137: False positive - detected Lemon (conf=0.761)
+Frame 138: False positive - detected Lemon (conf=0.746)
+Frame 139: False positive - detected Lemon (conf=0.726)
+Frame 140: False positive - detected Lemon (conf=0.783)
+Frame 141: False positive - detected Lemon (conf=0.680)
+Frame 142: False positive - detected Lemon (conf=0.593)
+Frame 144: False positive - detected Lemon (conf=0.489)
+Frame 145: False positive - detected Lemon (conf=0.587)
+Frame 146: False positive - detected Lemon (conf=0.835)
+Frame 147: False positive - detected Lemon (conf=0.828)
+Frame 148: False positive - detected Lemon (conf=0.760)
+Frame 149: False positive - detected Lemon (conf=0.820)
+Frame 150: False positive - detected Lemon (conf=0.745)
+Frame 151: False positive - detected Lemon (conf=0.782)
+Frame 152: False positive - detected Lemon (conf=0.536)
+Frame 153: False positive - detected Lemon (conf=0.585)
+Frame 154: False positive - detected Lemon (conf=0.578)
+Frame 155: False positive - detected Lemon (conf=0.759)
+Frame 156: False positive - detected Lemon (conf=0.634)
+Frame 157: False positive - detected Lemon (conf=0.778)
+Frame 158: False positive - detected Lemon (conf=0.657)
+Frame 164: False positive - detected Lemon (conf=0.531)
+Frame 173: False positive - detected Lemon (conf=0.758)
+Frame 215: False positive - detected Lemon (conf=0.604)
+Frame 216: False positive - detected Lemon (conf=0.687)
+Frame 224: False positive - detected Lemon (conf=0.491)
+Frame 225: False positive - detected Lemon (conf=0.534)
+Frame 226: False positive - detected Lemon (conf=0.565)
+Frame 227: False positive - detected Lemon (conf=0.656)
+Frame 229: False positive - detected Lemon (conf=0.520)
+Frame 230: False positive - detected Lemon (conf=0.605)
+Frame 232: False positive - detected Lemon (conf=0.755)
+Frame 233: False positive - detected Lemon (conf=0.578)
+Frame 234: False positive - detected Lemon (conf=0.716)
+Frame 235: False positive - detected Lemon (conf=0.778)
+Frame 236: False positive - detected Lemon (conf=0.625)
+Frame 241: False positive - detected Lemon (conf=0.623)
+Frame 245: False positive - detected Lemon (conf=0.641)
+Frame 246: False positive - detected Lemon (conf=0.731)
+Frame 247: False positive - detected Lemon (conf=0.805)
+Frame 251: False positive - detected Lemon (conf=0.498)
+
+Results for apple2.MOV:
+Total frames: 272
+True positive: 149 (54.8%)
+False positive: 62 (22.8%)
+Missed: 61 (22.4%)
+Average confidence (detected frames): 0.763
+Average processing time: 172.1ms
+Plot saved to: /home/hamza/Videos/supermarket_videos/V5/apple2_analysis.png
+
+All tests complete.
+========================================
+Testing model: V3
+========================================
+--- lemon1.mov (Lemon) ---
+Error opening video: /home/hamza/Videos/supermarket_videos/lemon1.mov
+--- orange1.mov (Orange) ---
+Processing: /home/hamza/Videos/supermarket_videos/orange1.mov
+Expected class: Orange
+--------------------------------------------------
+Frame 35: False positive - detected Apple (conf=0.581)
+Frame 38: False positive - detected Apple (conf=0.527)
+Frame 39: False positive - detected Apple (conf=0.572)
+Frame 41: False positive - detected Apple (conf=0.502)
+Frame 42: False positive - detected Apple (conf=0.544)
+Frame 43: False positive - detected Apple (conf=0.482)
+Frame 44: False positive - detected Apple (conf=0.674)
+Frame 45: False positive - detected Apple (conf=0.519)
+Frame 46: False positive - detected Apple (conf=0.615)
+Frame 47: False positive - detected Apple (conf=0.487)
+Frame 48: False positive - detected Apple (conf=0.594)
+Frame 50: False positive - detected Apple (conf=0.564)
+Frame 54: False positive - detected Apple (conf=0.626)
+Frame 55: False positive - detected Apple (conf=0.504)
+Frame 56: False positive - detected Apple (conf=0.703)
+Frame 57: False positive - detected Apple (conf=0.745)
+Frame 58: False positive - detected Apple (conf=0.607)
+Frame 59: False positive - detected Apple (conf=0.777)
+Frame 60: False positive - detected Apple (conf=0.784)
+Frame 61: False positive - detected Apple (conf=0.817)
+Frame 62: False positive - detected Apple (conf=0.830)
+Frame 63: False positive - detected Apple (conf=0.729)
+Frame 64: False positive - detected Apple (conf=0.730)
+Frame 65: False positive - detected Apple (conf=0.709)
+Frame 66: False positive - detected Apple (conf=0.733)
+Frame 67: False positive - detected Apple (conf=0.719)
+Frame 68: False positive - detected Apple (conf=0.730)
+Frame 69: False positive - detected Apple (conf=0.716)
+Frame 70: False positive - detected Apple (conf=0.598)
+Frame 71: False positive - detected Apple (conf=0.661)
+Frame 72: False positive - detected Apple (conf=0.725)
+Frame 73: False positive - detected Apple (conf=0.692)
+Frame 74: False positive - detected Apple (conf=0.648)
+Frame 75: False positive - detected Apple (conf=0.641)
+Frame 76: False positive - detected Apple (conf=0.563)
+Frame 79: False positive - detected Apple (conf=0.489)
+Frame 80: False positive - detected Apple (conf=0.514)
+Frame 85: False positive - detected Apple (conf=0.489)
+Frame 87: False positive - detected Apple (conf=0.495)
+Frame 90: False positive - detected Apple (conf=0.555)
+Frame 93: False positive - detected Apple (conf=0.612)
+Frame 94: False positive - detected Apple (conf=0.562)
+Frame 95: False positive - detected Apple (conf=0.542)
+
+Results for orange1.mov:
+Total frames: 221
+True positive: 0 (0.0%)
+False positive: 43 (19.5%)
+Missed: 178 (80.5%)
+Average confidence (detected frames): 0.626
+Average processing time: 82.4ms
+Plot saved to: /home/hamza/Videos/supermarket_videos/V3/orange1_analysis.png
+========================================
+Testing model: V5
+========================================
+--- lemon1.mov (Lemon) ---
+Error opening video: /home/hamza/Videos/supermarket_videos/lemon1.mov
+--- orange1.mov (Orange) ---
+Processing: /home/hamza/Videos/supermarket_videos/orange1.mov
+Expected class: Orange
+--------------------------------------------------
+Frame 2: False positive - detected Apple (conf=0.506)
+Frame 19: False positive - detected Apple (conf=0.536)
+Frame 20: False positive - detected Apple (conf=0.533)
+Frame 37: False positive - detected Apple (conf=0.600)
+Frame 50: False positive - detected Apple (conf=0.685)
+Frame 51: False positive - detected Apple (conf=0.682)
+Frame 52: False positive - detected Apple (conf=0.588)
+Frame 54: False positive - detected Apple (conf=0.504)
+Frame 57: False positive - detected Apple (conf=0.648)
+Frame 58: False positive - detected Apple (conf=0.756)
+Frame 59: False positive - detected Apple (conf=0.768)
+Frame 60: False positive - detected Apple (conf=0.729)
+Frame 61: False positive - detected Apple (conf=0.755)
+Frame 62: False positive - detected Apple (conf=0.791)
+Frame 63: False positive - detected Apple (conf=0.646)
+Frame 65: False positive - detected Apple (conf=0.633)
+Frame 66: False positive - detected Apple (conf=0.678)
+Frame 68: False positive - detected Apple (conf=0.527)
+Frame 71: False positive - detected Apple (conf=0.671)
+Frame 72: False positive - detected Apple (conf=0.662)
+Frame 73: False positive - detected Apple (conf=0.608)
+
+Results for orange1.mov:
+Total frames: 221
+True positive: 0 (0.0%)
+False positive: 21 (9.5%)
+Missed: 200 (90.5%)
+Average confidence (detected frames): 0.643
+Average processing time: 139.5ms
+Plot saved to: /home/hamza/Videos/supermarket_videos/V5/orange1_analysis.png
+
+Done.
