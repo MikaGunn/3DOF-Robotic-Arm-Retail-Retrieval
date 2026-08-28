@@ -1,6 +1,6 @@
 # View, Confirm, Approach and Return Controller
 
-`view_confirm_approach.py` implements the high-level object-confirmation sequence.
+`view_confirm_approach.py` implements the high level object confirmation sequence.
 
 ## Sequence
 
