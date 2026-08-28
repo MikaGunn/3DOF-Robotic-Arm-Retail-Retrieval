@@ -10,13 +10,13 @@ The project develops a compact robotic manipulation subsystem for structured ret
 
 The design combines:
 
-- predefined product coordinates for coarse positioning;
-- analytical inverse kinematics;
-- ROS 2 based modular control;
-- MoveIt 2 trajectory planning;
-- Gazebo and RViz simulation;
-- camera-based position refinement;
-- gradual multi-step approach motion;
+- predefined product coordinates for coarse positioning
+- analytical inverse kinematics
+- ROS 2 based modular control
+- MoveIt 2 trajectory planning
+- Gazebo and RViz simulation
+- camera-based position refinement
+- gradual multi-step approach motion
 - Raspberry Pi based real-hardware deployment.
 
 ## Main Hardware
