@@ -309,10 +309,10 @@ This demonstrates the small positional variation produced by the vision subsyste
 
 The project also identified several limitations:
 
-- limited end effector orientation control due to only 3 DOF;
-- dependence on predefined target coordinates;
-- perception performance can be affected by lighting and visibility;
-- no active gripper force feedback;
+- limited end effector orientation control due to only 3 DOF
+- dependence on predefined target coordinates
+- perception performance can be affected by lighting and visibility
+- no active gripper force feedback
 - reduced flexibility in unstructured environments.
 
 ---
@@ -321,12 +321,12 @@ The project also identified several limitations:
 
 Possible future developments include:
 
-- increasing the number of degrees of freedom;
-- adding active gripper control with force feedback;
-- improving object detection and pose estimation;
-- reducing dependence on predefined coordinates;
-- improving camera calibration;
-- improving timing and synchronization;
+- increasing the number of degrees of freedom
+- adding active gripper control with force feedback
+- improving object detection and pose estimation
+- reducing dependence on predefined coordinates
+- improving camera calibration
+- improving timing and synchronization
 - adding more robust perception for changing retail environments.
 
 ---
