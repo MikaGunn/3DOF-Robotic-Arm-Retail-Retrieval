@@ -250,13 +250,13 @@ The system was tested through multiple ROS 2 based experimental runs.
 
 The results showed that:
 
-- the arm consistently reached predefined stand-off positions;
+- the arm consistently reached predefined stand off positions;
 - inverse kinematics produced valid joint configurations without instability;
-- camera-based localisation produced target coordinates close to the expected physical object location;
+- camera based localisation produced target coordinates close to the expected physical object location;
 - minor localisation tolerance was observed, which is expected when using a 2D camera;
-- intermediate approach points created smooth, step-wise trajectories;
+- intermediate approach points created smooth, step wise trajectories;
 - the arm successfully followed the generated points in sequence;
-- the final end-effector position matched the detected target coordinates during the recorded tests;
+- the final end effector position matched the detected target coordinates during the recorded tests;
 - the complete motion cycle included movement from home to target and return to home.
 
 The report also shows that the coordinate profiles changed gradually without sudden discontinuities, indicating stable motion execution.
