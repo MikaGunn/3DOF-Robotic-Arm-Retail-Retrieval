@@ -1,6 +1,6 @@
 # 3-DOF Robotic Arm for Retail Item Retrieval
 
-A ROS 2 based robotic manipulation project developed for **retail shelf item retrieval** using a compact **3-DOF robotic arm**, **camera-based position refinement**, **inverse kinematics**, **MoveIt 2**, **Gazebo**, and **RViz**.
+A ROS 2 based robotic manipulation project developed for **retail shelf item retrieval** using a compact **3-DOF robotic arm**, **camera based position refinement**, **inverse kinematics**, **MoveIt 2**, **Gazebo** and **RViz**.
 
 The system is designed as part of an autonomous shopping assistant concept. Instead of relying only on fixed coordinates or only on vision, it uses a **hybrid localisation strategy**: predefined product coordinates are used for coarse positioning, while camera feedback is used for local correction and final alignment.
 
@@ -8,14 +8,14 @@ The system is designed as part of an autonomous shopping assistant concept. Inst
 
 ## Project Overview
 
-Retail environments are more constrained and less structured than traditional warehouses. Products may be placed with small positional variations, shelves are narrow, and the robot must operate with limited computational and mechanical complexity.
+Retail environments are more constrained and less structured than traditional warehouses. Products may be placed with small positional variations, shelves are narrow and the robot must operate with limited computational and mechanical complexity.
 
 This project addresses that problem using a simplified 3-DOF manipulator that can:
 
 - move toward a predefined shelf position;
 - calculate joint angles using inverse kinematics;
 - use ROS 2 and MoveIt 2 for motion planning and control;
-- receive camera-based object localisation data;
+- receive camera based object localisation data;
 - refine the arm position using visual feedback;
 - approach the detected target through gradual intermediate movements;
 - execute the control pipeline in simulation and on physical hardware.
@@ -60,7 +60,7 @@ Move end effector toward object
 Final target position
 ```
 
-The software architecture is modular and separates perception, control, and actuation into ROS 2 components.
+The software architecture is modular and separates perception, control and actuation into ROS 2 components.
 
 ---
 
@@ -80,7 +80,7 @@ The physical system uses:
 
 - **3-DOF Robotic Arm**
   - 3 rotational joints
-  - Base rotation, shoulder, and elbow
+  - Base rotation, shoulder and elbow
   - Aluminium structure
   - Approximate link dimensions:
     - Link 1: 0.085 m
@@ -90,10 +90,10 @@ The physical system uses:
 
 - **MG996R Servo Motors**
   - Quantity: 3
-  - Used for the base, shoulder, and elbow joints
+  - Used for the base, shoulder and elbow joints
 
 - **1080p RGB Camera**
-  - Used for object-centre detection and local position refinement
+  - Used for object centre detection and local position refinement
 
 ---
 
@@ -107,9 +107,9 @@ The physical system uses:
 - OpenCV
 - Inverse Kinematics
 - Forward Kinematics
-- Denavit-Hartenberg modelling
-- Camera-based localisation
-- Visual servoing / image-centre alignment
+- Denavit Hartenberg modelling
+- Camera based localisation
+- Visual servoing / image centre alignment
 - Joint trajectory control
 - Raspberry Pi
 - Servo actuation
@@ -154,7 +154,7 @@ z = L1 + L2 cos(q2) + L3 cos(q2 + q3)
 
 ### Inverse Kinematics
 
-For a desired end-effector position `(x, y, z)`:
+For a desired end effector position `(x, y, z)`:
 
 ```text
 q1 = atan2(y, x)
@@ -167,9 +167,9 @@ r = sqrt(x² + y²)
 s = z - L1
 ```
 
-The elbow angle is obtained using the cosine rule, and the shoulder angle is calculated from the geometric relationship between the two planar arm links.
+The elbow angle is obtained using the cosine rule and the shoulder angle is calculated from the geometric relationship between the two planar arm links.
 
-The analytical IK solution allows the arm to calculate joint angles efficiently for real-time target positioning.
+The analytical IK solution allows the arm to calculate joint angles efficiently for real time target positioning.
 
 ---
 
@@ -179,7 +179,7 @@ A key feature of the project is the use of **hybrid localisation**.
 
 ### 1. Coarse Positioning
 
-The robot begins with predefined product coordinates and moves to a stand-off position near the expected product location.
+The robot begins with predefined product coordinates and moves to a stand off position near the expected product location.
 
 ### 2. Camera-Based Refinement
 
@@ -200,7 +200,7 @@ The goal is to reduce this error so the product appears near the image centre.
 
 ### 3. Final Approach
 
-After the object position is refined, the robot generates intermediate points between the stand-off position and the detected target.
+After the object position is refined, the robot generates intermediate points between the stand off position and the detected target.
 
 This gradual approach reduces abrupt changes in joint position and improves motion stability.
 
@@ -215,7 +215,7 @@ xc = ((u - cx) / fx) * zc
 yc = ((v - cy) / fy) * zc
 ```
 
-The coordinates are then transformed into the robot/world frame using the forward kinematic transformation and the fixed camera-to-end-effector relationship.
+The coordinates are then transformed into the robot/world frame using the forward kinematic transformation and the fixed camera to end effector relationship.
 
 This allows the detected target location to be expressed in coordinates that can be used by the robotic arm controller.
 
@@ -230,7 +230,7 @@ The main control sequence is:
 2. Read target coordinates
 3. Request IK solution
 4. Generate joint trajectory
-5. Move to stand-off position
+5. Move to stand off position
 6. Wait for object detection
 7. Receive refined target coordinates
 8. Calculate new IK solution
@@ -298,7 +298,7 @@ This demonstrates the small positional variation produced by the vision subsyste
 - Analytical inverse kinematics
 - ROS 2 modular architecture
 - Simulation and real-hardware validation
-- Camera-based correction
+- Camera based correction
 - Gradual approach trajectory
 - Suitable for constrained shelf environments
 - Integration of perception, control, and actuation
@@ -309,7 +309,7 @@ This demonstrates the small positional variation produced by the vision subsyste
 
 The project also identified several limitations:
 
-- limited end-effector orientation control due to only 3 DOF;
+- limited end effector orientation control due to only 3 DOF;
 - dependence on predefined target coordinates;
 - perception performance can be affected by lighting and visibility;
 - no active gripper force feedback;
@@ -331,48 +331,10 @@ Possible future developments include:
 
 ---
 
-## Suggested Repository Structure
-
-```text
-3DOF-Robotic-Arm-Retail-Retrieval/
-├── ros_ws/
-│   ├── arm_control_py/
-│   ├── arduinobot_description/
-│   ├── arduinobot_moveit/
-│   ├── arduinobot_bringup/
-│   └── ...
-├── vision/
-├── docs/
-├── testing/
-├── README.md
-└── .gitignore
-```
-
----
-
 ## Suggested GitHub Topics
 
 `ros2` `robotics` `robot-arm` `moveit2` `gazebo` `rviz` `inverse-kinematics` `computer-vision` `opencv` `visual-servoing` `retail-automation` `raspberry-pi`
 
 ---
 
-## Portfolio Description
-
-**3-DOF Robotic Arm for Retail Item Retrieval**
-
-Developed a ROS 2 based robotic manipulation system for structured retail shelf item retrieval using a 3-DOF robotic arm, analytical inverse kinematics, MoveIt 2 trajectory control, Gazebo/RViz simulation, and camera-based position refinement. Implemented a hybrid localisation strategy combining predefined product coordinates with visual feedback and gradual approach trajectories for stable target positioning.
-
----
-
-## Academic Context
-
-This project was developed as part of the **EMS690U Integrated Design Project** at the **School of Engineering and Materials Science, Queen Mary University of London**.
-
-The project focused on the design and development of a robotic manipulation subsystem for autonomous retail item retrieval.
-
----
-
-## Note
-
-The public GitHub repository should avoid including documents that expose personal academic identifiers unless intentionally required.
 
