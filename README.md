@@ -12,12 +12,12 @@ Retail environments are more constrained and less structured than traditional wa
 
 This project addresses that problem using a simplified 3-DOF manipulator that can:
 
-- move toward a predefined shelf position;
-- calculate joint angles using inverse kinematics;
-- use ROS 2 and MoveIt 2 for motion planning and control;
-- receive camera based object localisation data;
-- refine the arm position using visual feedback;
-- approach the detected target through gradual intermediate movements;
+- move toward a predefined shelf position
+- calculate joint angles using inverse kinematics
+- use ROS 2 and MoveIt 2 for motion planning and control
+- receive camera based object localisation data
+- refine the arm position using visual feedback
+- approach the detected target through gradual intermediate movements
 - execute the control pipeline in simulation and on physical hardware.
 
 The manipulator was designed for a constrained retail shelf environment with a maximum reach of approximately **0.226 m**.
